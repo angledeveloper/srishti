@@ -172,7 +172,7 @@ export default function Home() {
           <span className=' text-wrap text-center font-display text-6xl font-bold text-white'>
             UPI ID for Payment
           </span>
-          <div className=' flex w-[340px] items-center justify-center rounded-full bg-[#FFA629]  py-2 font-display text-lg font-bold  md:text-2xl'>
+          <div className=' flex items-center justify-center rounded-full bg-[#FFA629]  py-2 font-display text-lg font-bold  md:text-2xl'>
             satishhindalgekar2-4@okhdfcbank
           </div>
         </div>
@@ -181,7 +181,9 @@ export default function Home() {
       <div id='payment'>
         <div data-paperform-id='xejweytv' />
       </div>
-      <div className=' h-16 w-full bg-[#3A3A3A]'></div>
+      <div className=' flex h-16 w-full items-center justify-center bg-[#3A3A3A] text-[8px] text-white'>
+        designed and developed by angle.services
+      </div>
     </main>
   );
 }
