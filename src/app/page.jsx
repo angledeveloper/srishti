@@ -74,48 +74,48 @@ export default function Home() {
         </div>
       </div>
 
-      <div class='relative flex overflow-x-hidden bg-[#FCBCBD]'>
-        <div class='animate-marquee whitespace-nowrap py-6 '>
-          <span class='mx-1 text-2xl'>
+      <div className='relative flex overflow-x-hidden bg-[#FCBCBD]'>
+        <div className='animate-marquee whitespace-nowrap py-6 '>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
         </div>
 
-        <div class='absolute top-0 animate-marquee2 whitespace-nowrap py-6 '>
-          <span class='mx-1 text-2xl'>
+        <div className='absolute top-0 animate-marquee2 whitespace-nowrap py-6 '>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
-          <span class='mx-1 text-2xl'>
+          <span className='mx-1 text-2xl'>
             Any B.Des and B.Voc student from the 2020-2024 batch from SMI can
             attend.
           </span>
