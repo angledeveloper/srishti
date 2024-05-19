@@ -178,7 +178,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='payment' className=' h-dvh overflow-y-auto'>
+      <div id='payment'>
         <div data-paperform-id='xejweytv' />
       </div>
       <div className=' h-16 w-full bg-[#3A3A3A]'></div>
