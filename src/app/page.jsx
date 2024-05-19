@@ -167,7 +167,7 @@ export default function Home() {
             UPI ID for Payment
           </span>
           <div className=' flex w-[340px] items-center justify-center rounded-full bg-[#FFA629]  py-2 font-display text-lg font-bold  md:text-2xl'>
-            FLO, Church Street
+            7019086805@ybl
           </div>
         </div>
       </div>
