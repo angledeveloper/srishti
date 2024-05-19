@@ -6,19 +6,25 @@ import { useEffect } from 'react';
 import ComponentForm from './component';
 
 export default function Home() {
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     (function (d, s, id) {
+  //       var js;
+  //       if (d.getElementById(id)) {
+  //         return;
+  //       }
+  //       js = d.createElement(s);
+  //       js.id = id;
+  //       js.src = 'https://embedsocial.com/cdn/ef.js';
+  //       d.getElementsByTagName('head')[0].appendChild(js);
+  //     })(document, 'script', 'EmbedSocialFormsScript');
+  //   }, 1000); // 1000 milliseconds = 1 second
+  // }, []);
+
   useEffect(() => {
-    setTimeout(() => {
-      (function (d, s, id) {
-        var js;
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://embedsocial.com/cdn/ef.js';
-        d.getElementsByTagName('head')[0].appendChild(js);
-      })(document, 'script', 'EmbedSocialFormsScript');
-    }, 1000); // 1000 milliseconds = 1 second
+    const script = document.createElement('script');
+    script.src = 'https://paperform.co/__embed.min.js';
+    document.body.appendChild(script);
   }, []);
 
   return (
@@ -173,11 +179,7 @@ export default function Home() {
       </div>
 
       <div id='payment' className=' h-dvh overflow-y-auto'>
-        <div
-          class='embedsocial-forms-iframe'
-          data-ref='e08527d4811437ede7ab880b8e4d144cbd3e96c3'
-          data-widget='true'
-        ></div>
+        <div data-paperform-id='xejweytv' />
       </div>
       <div className=' h-16 w-full bg-[#3A3A3A]'></div>
     </main>
