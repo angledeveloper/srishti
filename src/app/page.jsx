@@ -159,7 +159,8 @@ export default function Home() {
       </div>
       <div className=' mx-auto flex max-w-6xl  flex-col items-center justify-center gap-5 px-3  py-10 md:flex-row'>
         <div className='   text-lg font-normal  text-black  md:text-2xl '>
-          Cost of 750rs per person, 699 of that will be redeemable in the club.
+          Cost of 750rs /- per person, 699rs /- of that will be redeemable in
+          the club. On spot Booking is 999rs /-
         </div>
         <img
           src='/step3.png'
