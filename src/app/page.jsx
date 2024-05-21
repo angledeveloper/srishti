@@ -21,12 +21,6 @@ export default function Home() {
   //   }, 1000); // 1000 milliseconds = 1 second
   // }, []);
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://paperform.co/__embed.min.js';
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <main>
       <a href='#payment'>
@@ -179,8 +173,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='payment'>
-        <div data-paperform-id='xejweytv' />
+      <div
+        id='payment'
+        className=' flex h-96 items-center justify-center  bg-[#FCBCBD] font-display text-4xl font-bold text-black'
+      >
+        Walk-in Registration at 999/- only
       </div>
       <div className=' flex h-16 w-full items-center justify-center bg-[#3A3A3A] text-[4px] text-white'>
         designed and developed by angle.services
